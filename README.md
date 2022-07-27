@@ -75,7 +75,7 @@ This process may take minutes so if you are training on online servers (e.g. Col
 ### Train
 
 ```
-python3 main.py!
+python3 main.py
 ```
 
 
