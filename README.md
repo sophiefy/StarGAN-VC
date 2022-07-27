@@ -46,7 +46,7 @@ In consideration of intellectual rights, the Japanese dataset cannot be shared. 
 
 ### Chinese (public)
 
-The Chinese dataset is [THCHS-30](openslr.org](http://www.openslr.org/18/), which is totally free!  
+The Chinese dataset is [THCHS-30](http://www.openslr.org/18/), which is totally free!  
 
 
 
