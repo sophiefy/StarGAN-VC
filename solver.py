@@ -2,7 +2,7 @@ import os
 import time
 from datetime import datetime, timedelta
 
-import scipy
+import soundfile as sf
 import numpy as np
 import torch
 import torch.nn as nn
@@ -286,7 +286,8 @@ class Solver(object):
                         name = f'{speaker}-{target}_iter{i+1}_{filename}'
                         path = os.path.join(self.sample_dir, name)
                         print(f'[save]:{path}')
-                        scipy.io.wavfile.write(path, SAMPLE_RATE, wav)
+#                         scipy.io.wavfile.write(path, SAMPLE_RATE, wav)
+                        sf.write(path, SAMPLE_RATE ,wav)
                         
             # Save model checkpoints.
             if (i+1) % self.model_save_step == 0:
