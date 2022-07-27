@@ -98,9 +98,9 @@ python3 main.py --mode test --test_iters 200000 --src_speaker p2 --trg_speaker p
 
 [StarGAN-VC paper](https://arxiv.org/abs/1806.02169)
 
-[Original Code](https://github.com/hujinsen/pytorch-StarGAN-VC)
+[Original code](https://github.com/hujinsen/pytorch-StarGAN-VC)
 
-[Reference Code](https://github.com/wubinary/DLHLP2020-SPRING)
+[Reference code](https://github.com/wubinary/DLHLP2020-SPRING)
 
 
 ## Acknowledgement
