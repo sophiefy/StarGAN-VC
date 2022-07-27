@@ -46,7 +46,7 @@ In consideration of intellectual rights, the Japanese dataset cannot be shared. 
 
 ### Chinese (public)
 
-The Chinese dataset is [THCHS-30]([openslr.org](http://www.openslr.org/18/)), which is totally free!  
+The Chinese dataset is [THCHS-30](openslr.org](http://www.openslr.org/18/), which is totally free!  
 
 
 
@@ -94,3 +94,5 @@ Colab demo is coming soon!
 [StarGAN-VC paper](https://arxiv.org/abs/1806.02169)
 
 [Original Code](https://github.com/hujinsen/pytorch-StarGAN-VC)
+
+[Reference Code](https://github.com/wubinary/DLHLP2020-SPRING)
