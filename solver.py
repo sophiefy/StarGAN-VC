@@ -2,7 +2,7 @@ import os
 import time
 from datetime import datetime, timedelta
 
-import soundfile as sf
+from scipy import io
 import numpy as np
 import torch
 import torch.nn as nn
@@ -90,7 +90,7 @@ class Solver(object):
         self.G.to(self.device)
         self.D.to(self.device)
         self.C.to(self.device)
-    
+        
     def print_network(self, model, name):
         """Print out the network information."""
         num_params = 0
@@ -286,8 +286,8 @@ class Solver(object):
                         name = f'{speaker}-{target}_iter{i+1}_{filename}'
                         path = os.path.join(self.sample_dir, name)
                         print(f'[save]:{path}')
-#                         scipy.io.wavfile.write(path, SAMPLE_RATE, wav)
-                        sf.write(path, SAMPLE_RATE ,wav)
+                        io.wavfile.write(path, SAMPLE_RATE, wav)
+
                         
             # Save model checkpoints.
             if (i+1) % self.model_save_step == 0:
@@ -395,10 +395,9 @@ class Solver(object):
                     name = f'{speaker}-{target}_iter{self.test_iters}_{filename}'
                     path = os.path.join(self.result_dir, name)
                     print(f'[save]:{path}')
-                    scipy.io.wavfile.write(path, SAMPLE_RATE, wav)            
+                    scipy.io.wavfile.write(path, SAMPLE_RATE, wav) 
+               
 
-
-    
 
 if __name__ == '__main__':
     pass
