@@ -30,7 +30,7 @@ data
     └───p2
 ```
 
-The sample rate is **22050** for all wave files. There are 300 training examples of p1 and p2 respectively in the `speakers` directory and 10 testing examples of p1 and p2 respectively in the `speakers_test` directory. They are all chosen in a random fasion.
+The sample rate is **22050** for all wave files. There are 300 training examples of p1 and p2 respectively in the `speakers` directory and 10 testing examples of p1 and p2 respectively in the `speakers_test` directory. They are all chosen in a random fashion.
 
 `p1` is the data of a Japanese speaker while `p2`  is Chinese. In our experiment, we consider `p2` as the source speaker and `p1` as the target speaker. In other words, we want `p2` to speak like `p1`.
 
@@ -42,6 +42,11 @@ The Japanese data are extracted from the game [Yosuga no Sora]([Yosuga no Sora -
 
 In consideration of intellectual rights, the Japanese dataset cannot be shared. However, you may collect your own data:)
 
+### How to Collect Data?
+
+- `*.xp3`: [Garbro](https://github.com/morkt/GARbro)
+- `*.ks.scn` to `*.json`: [FreeMote](https://github.com/UlyssesWu/FreeMote)  
+- `*.ogg` to `*.wav`: [ffmpeg](https://ffmpeg.org/)
 
 
 ### Chinese (public)
@@ -85,7 +90,7 @@ python3 main.py --mode test --test_iters 200000 --src_speaker p2 --trg_speaker p
 
 ## Demo
 
-Colab demo is coming soon!
+[Colab demo](https://colab.research.google.com/drive/1R-Dc2AUAPFkcfkABUeejszfTeBgwdqZC?usp=sharing)
 
 
 
