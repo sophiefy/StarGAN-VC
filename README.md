@@ -101,3 +101,8 @@ python3 main.py --mode test --test_iters 200000 --src_speaker p2 --trg_speaker p
 [Original Code](https://github.com/hujinsen/pytorch-StarGAN-VC)
 
 [Reference Code](https://github.com/wubinary/DLHLP2020-SPRING)
+
+
+## Acknowledgement
+
+I should express my thanks to [CjangCjengh](https://github.com/CjangCjengh) for giving me both inspiration and advice.
