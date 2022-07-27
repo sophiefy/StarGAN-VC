@@ -395,7 +395,7 @@ class Solver(object):
                     name = f'{speaker}-{target}_iter{self.test_iters}_{filename}'
                     path = os.path.join(self.result_dir, name)
                     print(f'[save]:{path}')
-                    scipy.io.wavfile.write(path, SAMPLE_RATE, wav) 
+                    io.wavfile.write(path, SAMPLE_RATE, wav) 
                
 
 
