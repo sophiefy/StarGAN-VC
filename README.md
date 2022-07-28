@@ -106,3 +106,17 @@ python3 main.py --mode test --test_iters 200000 --src_speaker p2 --trg_speaker p
 ## Acknowledgement
 
 I should express my thanks to [CjangCjengh](https://github.com/CjangCjengh) for giving me both inspiration and advice.
+
+
+## Issues
+
+1. The domain classifier doesn't seem to work. Its training loss never changes...
+
+2. The whole network is hard to train. The loss doesn't converge as I have expected...
+
+3. The quality of converted speech (even that of the official samples) is not that satisfying, compared to that of the speech synthesized by TTS models like Tacotron 2...
+
+
+## TODO
+
+1. Try StarGAN-VC2
