@@ -38,7 +38,7 @@ The sample rate is **22050** for all wave files. There are 300 training examples
 
 ### Japanese (private)
 
-The Japanese data are extracted from the game [Yosuga no Sora]([Yosuga no Sora - Wikipedia](https://en.wikipedia.org/wiki/Yosuga_no_Sora)). The speaker, more precisely, the character is [Sora Kasugano]([Sora Kasugano | All Worlds Alliance Wiki | Fandom](https://all-worlds-alliance.fandom.com/wiki/Sora_Kasugano)). 
+The Japanese data are extracted from the game [Yosuga no Sora](https://en.wikipedia.org/wiki/Yosuga_no_Sora). The speaker, more precisely, the character is [Sora Kasugano](https://all-worlds-alliance.fandom.com/wiki/Sora_Kasugano). 
 
 In consideration of intellectual rights, the Japanese dataset cannot be shared. However, you may collect your own data:)
 
