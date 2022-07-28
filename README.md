@@ -119,4 +119,4 @@ I should express my thanks to [CjangCjengh](https://github.com/CjangCjengh) for 
 
 ## TODO
 
-1. Try StarGAN-VC2
+1. Try [StarGAN-VC2](https://arxiv.org/abs/1907.12279)
