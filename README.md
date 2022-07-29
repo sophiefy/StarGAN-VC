@@ -44,7 +44,7 @@ In consideration of intellectual rights, the Japanese dataset cannot be shared. 
 
 ### How to Collect Data?
 
-- `*.xp3`: [Garbro](https://github.com/morkt/GARbro)
+- `*.xp3`: [GARbro](https://github.com/morkt/GARbro)
 - `*.ks.scn` to `*.json`: [FreeMote](https://github.com/UlyssesWu/FreeMote)  
 - `*.ogg` to `*.wav`: [ffmpeg](https://ffmpeg.org/)
 
